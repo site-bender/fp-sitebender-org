@@ -1,16 +1,13 @@
 {
-	"name": "@sitebender/fp",
-	"version": "0.0.10",
-	"description": "Typescript utilities and types with an FP tilt.",
+	"name": "fp.sitebender.org",
+	"version": "0.0.2",
+	"description": "Docs for @sitebender/fp.",
 	"license": "MIT",
 	"author": "Charles F. Munat <coder@craft-code.dev>",
 	"type": "module",
 	"files": [
-		"index.ts",
-		"lib",
 		"src"
 	],
-	"types": "dist/index.d.ts",
 	"scripts": {
 		"astro": "astro",
 		"build": "astro build",
@@ -37,6 +34,7 @@
 		"@formatjs/intl-getcanonicallocales": "^2.3.0",
 		"@formatjs/intl-listformat": "^7.5.5",
 		"@formatjs/intl-locale": "^3.4.5",
+		"@sitebender/fp": "^0.0.10",
 		"@types/jsdom": "^21.1.6",
 		"@types/node": "^20.12.4",
 		"@vitest/coverage-v8": "^1.5.0",
